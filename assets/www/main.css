@@ -1,0 +1,31 @@
+h1 {
+    color:white;
+}
+
+h2 {
+    color:yellow;
+}
+
+body {
+    background-color: black;   
+    color:gray;
+}
+
+div#reward-display {
+    color:yellow;
+    list-style-image:url("YoshiStar.png");
+}
+
+div#reward-display > ul > li {
+    float:left;
+    width:32px;
+    height:32px;
+    margin:2px;
+
+}
+
+input.rNum {
+    width: 8px;
+    margin: 2px;
+    padding: 2px;
+}

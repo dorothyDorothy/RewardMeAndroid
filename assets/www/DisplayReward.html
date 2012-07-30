@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Rewards</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="stylesheet" href="/jquery.mobile-1.1.0.min.css" />
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="jquery.mobile-1.1.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="reward.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova-1.7.0rc1.js"></script>
+    <script type="text/javascript">
+        function onBodyLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+    </script>
+</head>
+<body onload="onBodyLoad()">
+<h1>Reward Me</h1>
+<h2>Today's Rewards</h2>
+<div id="reward-display" data-role="content"/>
+</body>
+</html>
